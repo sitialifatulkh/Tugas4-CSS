@@ -1,0 +1,57 @@
+/* Inline CSS */
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  nav {
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  main {
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  article {
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  /* Internal CSS */
+  
+  @import url("style.css");
+  
+  /* External CSS */
+  
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* Contoh CSS External */
+
+
+  
